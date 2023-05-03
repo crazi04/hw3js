@@ -156,11 +156,8 @@ let word = "tomorrow"
 function escapeRegExp(string) {
 return string.replace(/[aeiouy]/gi, '');
 }
+хconsole.log(escapeRegExp(word))
 
-
-let text = "tomorrow";
-let result = string.replace(/[aeiouy]/gi, ''); 
-return (text);
 
 /*9.*  Використовуючи оператор if реалізувати логіку переводу метрів в кілометри,
     так щоб в консоль виводився результат обчислень з правильним закінченням.
