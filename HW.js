@@ -164,4 +164,18 @@ return string.replace(/[aeiouy]/gi, '');
     Наприклад: 1000 метрів це 1 кілометр;  32 метри це 0,032 кілометра і т.д.*/
 
 
+let x = 13330;// відстань в метрах
+let y = (x/1000);
+{         
+if( y == 1 ) 
+{console.log(y + ' кілометр')}
 
+else if ( y > 1 && y <= 4)
+{console.log(y + ' кілометри')}
+
+else if ( y >= 5)
+{console.log(y + ' кілометрів')}
+
+else if (y < 1) 
+{console.log(y + ' кілометра')}
+}
