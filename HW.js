@@ -10,9 +10,9 @@
 let hamburger = 4;
 let fries = 1;
 
-if (hamburger&&fries){
+if (hamburger >= 4 && fries >=1){
     console.log('Ми поїли')
-} else if(hamburger&& !fries){
+} else {
     console.log("Ми йдемо в інше кафе")
 }
 
@@ -26,7 +26,7 @@ if(price >= 1000 && price <= 1900)
 {
     console.log(price);}
 else {
-    console.log('not in nessary')
+    console.log('out of borders')
 }
 
 
@@ -156,7 +156,7 @@ let word = "tomorrow"
 function escapeRegExp(string) {
 return string.replace(/[aeiouy]/gi, '');
 }
-хconsole.log(escapeRegExp(word))
+console.log(escapeRegExp(word))
 
 
 /*9.*  Використовуючи оператор if реалізувати логіку переводу метрів в кілометри,
